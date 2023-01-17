@@ -15,6 +15,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         background: resolve(src, 'scripts', 'background.ts'),
+        content: resolve(src, 'scripts', 'content.ts'),
         // @ts-ignore
         index: resolve(__dirname, 'index.html')
       },
