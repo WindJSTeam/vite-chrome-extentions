@@ -1,0 +1,17 @@
+{
+  "name": "Net2 App",
+  "description": "Socket tcp by Tb",
+  "manifest_version": 3,
+  "version": "0.9",
+  "permissions": [],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "sockets": {
+    "tcp": {
+      "connect": "*"
+    }
+  }
+}
